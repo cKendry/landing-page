@@ -13,15 +13,21 @@ body {
 .header {
     display: flex;
     flex-direction: column;
+    padding-bottom: 25px;
 }
 
 .header-info {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
 }
 
 .hero {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
 }
 
 h3 {
@@ -41,3 +47,82 @@ ul {
     list-style-type: none;
     text-decoration: none;
 }
+
+.about {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.SignUp-button,
+.buy-button {
+    width:max-content;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 15px;
+}
+
+.SignUp-button,
+.purchase-section {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+img {
+    border-radius: 8px;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    gap: 45px;
+}
+
+.card {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-cards {
+    text-align: center;
+}
+
+.testimonios {
+    background-color: #e5e7eb;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-testimonios {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.autor-testimonios {
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.autor-testimonios,
+.text-testimonios {
+    font-style: italic;
+    color: #1f2937;
+    width: 1000px;
+}
+
