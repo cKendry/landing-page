@@ -62,7 +62,7 @@ h1 {
 
 .SignUp-button,
 .buy-button {
-    width:max-content;
+    width:100px;
     border-radius: 5px;
     border: none;
     padding: 5px 15px;
@@ -126,3 +126,35 @@ img {
     width: 1000px;
 }
 
+.calltoaction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.purchase-section {
+    display: flex;
+    border-radius: 8px;
+    width: 800px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+}
+
+.buy-button {
+    background-color: transparent;
+    border-color: #f9faf8;
+    border: 1px double;
+    color: #f9faf8;
+    height: fit-content;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    font-size: 24px;
+    flex: 1;
+}
